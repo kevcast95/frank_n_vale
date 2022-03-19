@@ -20,6 +20,7 @@ body {
 /* VIDEO CONTAINER */
 
 .card-video-container {
+    position: relative;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -29,68 +30,34 @@ body {
     margin: 0 auto;
 }
 
-.card-video__verse {
-    position: absolute;
-    top: 100px;
-    width: 50%;
-    text-align: center;
-    background-color: #fff;
-    border: solid 1px black;
-    z-index: 10;
-}
-
-.card-video__married {
-    position: absolute;
-    bottom: 100px;
-    width: 50%;
-    text-align: center;
-    background-color: #fff;
-    border: solid 1px black;
-    z-index: 10;
-}
-
 .card-video-container video {
     width: 100%;
-    max-width: 414px;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     object-fit: cover;
-    filter: blur(20px);
+    filter: blur(3px);
+}
+
+.wed {
+    position: absolute;
+    z-index: 10;
+    border: 4px solid floralwhite;
+    padding: 5px;
+    top: 50px;
 }
 
 .card-sphere {
     position: relative;
-    width: 280px;
-    height: 280px;
-    border-radius: 50%;
+    width: 287px;
+    height: 103px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 10;
-}
-
-.card-sphere::before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 11;
-    border-radius: 50%;
-    box-shadow: inset 0 25px 25px rgba(255,255,255,0.5), 
-                inset 0 -25px 25px rgba(0,0,0,1),
-                inset 0 0 25px rgba(0,0,0,1);
-}
-
-.card-sphere::after {
-    content: '';
-    width: 220px;
-    height: 20px;
-    position: absolute;
-    left: -15px;
-    bottom: -20px;
-    background: radial-gradient(#000,transparent,transparent);
-    z-index: -1;
+    border: 4px solid #a4804b;
+    background-color: rgba(255, 250, 240, 0.452);
 }
 
 .card-sphere video {
@@ -112,21 +79,29 @@ body {
 /* TIME LINE CONTIANER */
 
 .card-time_line-container {
-	width: 90%;
 	max-width: 1200px;
-    background-color: #DCDFD9; 
+    background-color: floralwhite; 
 	display: flex;
 	flex-direction: column;
 	position: relative;
-    padding: 10px;
+    padding: 10%;
 	margin: 0px auto;
 }
 
+.card-time_line-container > div {
+    
+}
+
+/* PARENTS INVITATION */
+/* florarl white #fffaf0 
+    ivory #fffff0
+    oldlace #fdf5e6
+*/
 .card-time_line-container::after {
 	content: "";
 	width: 2px;
 	height: 100%;
-	background: #1b3231;
+	background: linear-gradient(0deg, #ecbb77 92%, #a4804b 100%);;
 	position: absolute;
 	top: 0;
 	left: calc(50% - 1px);
@@ -138,6 +113,9 @@ body {
 	justify-content: space-between;
 	margin-bottom: 50px;
 	position: relative;
+    padding: 25px;
+    margin: 15px;
+    border: 5px solid white;
 }
 
 .card-time_line-event::after {
@@ -146,8 +124,8 @@ body {
 	width: 14px;
 	height: 14px;
 	border-radius: 100px;
-	background: #DCDFD9;
-	border: 2px solid #1b3231;
+	background: oldlace;
+	border: 2px solid #d4a768;
 	position: absolute;
 	z-index: 2;
 	top: calc(50% - 9px);
@@ -199,4 +177,5 @@ body {
 	width: calc(42% + 20px);
 	font-size: 20px;
 	font-weight: normal;
+    padding: 2px;
 }
