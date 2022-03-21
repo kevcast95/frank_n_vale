@@ -251,11 +251,14 @@ body {
     justify-content: center;
     align-items: center;
     border-top: 5px solid #ecbb77;
-    padding: 10px;
+    padding: 30px 10px;
 }
 
 .card-parents_invite > div {
     text-align: center;
+}
+.card-parents_invite > div > p{
+    font-size: 23px;
 }
 
 .card-parents_invite > p {
