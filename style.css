@@ -114,7 +114,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	position: relative;
-    border: 10px solid #ecbb77;
+    border: 5px solid #ecbb77;
     padding: 10% 5%;
 	margin: 0px auto;
 }
@@ -209,8 +209,7 @@ body {
 
 .card-parents {
     width: 100%;
-    height: 100vh;
-    border: 10px solid #ecbb77;
+    border: 5px solid #ecbb77;
     background-color: floralwhite;
 }
 
@@ -252,17 +251,34 @@ body {
     justify-content: center;
     align-items: center;
     border-top: 5px solid #ecbb77;
+    padding: 10px;
 }
 
 .card-parents_invite > div {
     text-align: center;
-    margin-bottom: 30px;
 }
 
 .card-parents_invite > p {
-    font-size: 1.5em;
+    font-size: 1.6em;
    font-weight: bold;
     background-image: linear-gradient( to right, #f6e27a 0, #cb9b51 22%, #f6e27a 55%, #d4a768 50%, #f6e27a 55%, #cb9b51 104%, #cb9b51 96% );
    color:transparent;
    -webkit-background-clip:text;
+   margin: 30px 0;
+}
+
+.card-parents__place-date {
+    width: 90%;
+}
+
+.card-parents__place-date > p {
+    padding: 5px;
+}
+
+.card-parents__place-date > div {
+    display: flex;
+    justify-content: space-around;
+}
+.date {
+    font-size: 22px;
 }
