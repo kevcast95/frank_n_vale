@@ -110,6 +110,7 @@ body {
 }
 
 .card-time_line-header > h1 {
+    font-size: 1.9em;
     font-weight: bold;
     background-image: linear-gradient( to right, #f6e27a 0, #cb9b51 22%, #cb9b51 55%, #d4a768 50%, #cb9b51 55%, #cb9b51 104%, #cb9b51 96% );
     color:transparent;
