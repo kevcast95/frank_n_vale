@@ -15,23 +15,25 @@
 </head>
 <body>
     <main class="card">
-        <section class="card-video-container">
-            <input type="text" placeholder="Ingrese código aquí">
+        <section class="card-input-view-container" id="input-contianer">
+            <div class="card-input-container">
+                <input type="text" placeholder="Ingrese código aquí" id="code" autocomplete="off">
+                <button type="button"  class="card-send" onclick="validateInvitate()"> Enviar </button>
+            </div>
             <div class="card-verse pos-verse" data-aos="fade-up">
-                 <div class="card-sphere">
-                     <h5>
+                 <div class="card-initial">
+                     <h1>
                         F
-                     </h5>
-                     
+                     </h1>
                  </div>
             </div>
             <div class="card-msj pos-msj" data-aos-delay="1600" data-aos="fade-up">
-                <div class="card-sphere">
+                <div class="card-initial">
                     <h1>V</h1>
                 </div>
             </div>
          </section>
-        <section class="card-video-container">
+        <section class="card-video-container" id="main">
            <div class="card-video">
             <video id="video" src="./assets/opt2.mp4" autoplay muted loop></video>
            </div>
@@ -95,7 +97,7 @@
             </div>
         </section>
         <section class="card-time_line-header" data-aos="fade-left">
-            <h1>Kevin J. Castiblanco Ibañez</h1>
+            <h1 id="guest-name" >Invitado</h1>
         </section>
         <section class="card-parents">
             <div class="card-parents__square border1" data-aos="fade-right">
@@ -135,7 +137,7 @@
                     <p>Mujer: Vestido largo</p>
                     <div>
                         <p>Lluvia de sobres</p>
-                        <p>Cupo: (2)</p>
+                        <p id="quota">Cupo: (0)</p>
                     </div>
                 </div>
             </div>

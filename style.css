@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -10,10 +11,12 @@
 }
 
 body {
+   
     width: 100%;
     height: 100%;
     position: relative;
     font-family: 'Great Vibes', cursive;
+    overflow: hidden;
 }
 
 .card {
@@ -26,7 +29,7 @@ body {
 
 /* VIDEO CONTAINER */
 
-.card-video-container {
+.card-video-container, .card-input-view-container {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -35,6 +38,38 @@ body {
     align-items: center;
     background: linear-gradient(0deg, #ecbb77 92%,#a4804b 100%);;
     margin: 0 auto;
+}
+
+.card-input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-input-container > input {
+    width: 230px;
+    font-family: 'Great Vibes', cursive;
+    padding: 5px 15px;
+    height: 50px;
+    border: 4px solid #a4804b;
+    letter-spacing: 3px;
+    font-size: 22px;
+}
+
+.card-send {
+    outline: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Great Vibes', cursive;
+    z-index: 10;
+    border: 2px solid #a4804b;
+    background-color: rgba(255, 250, 240, 0.452);
+    padding: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 3px;
 }
 
 .card-video {
@@ -73,6 +108,23 @@ body {
 .pos-msj {
     bottom: 15%;
     letter-spacing: 8px;
+}
+
+.card-initial {
+    position: relative;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    border: 4px solid #a4804b;
+    background-color: rgba(255, 250, 240, 0.452);
+    padding: 15px;
+}
+
+.card-initial h1 {
+    font-size: 1.9em ;
 }
 
 .card-sphere {
