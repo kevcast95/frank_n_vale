@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: birds;
+    src: url(./brids.ttf);
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -26,46 +31,69 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
+    background: linear-gradient(0deg, #ecbb77 92%,#a4804b 100%);;
     margin: 0 auto;
 }
 
-.card-video-container video {
+.card-video {
+    width: 90%;
+    height: 90%;
+    border: solid 20px floralwhite;
+}
+
+.card-video video {
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
     object-fit: cover;
     filter: blur(3px);
 }
 
-.wed {
+.show {
+    display: inline-block;
     position: absolute;
+}
+
+.none {
+    display: none;
+}
+
+.card-verse, .card-msj {
+    width: 80%;
+    position: absolute;
+    font-family: birds;
     z-index: 10;
     border: 4px solid floralwhite;
     padding: 5px;
-    top: 50px;
+}
+
+.pos-verse {
+    top: 15%;
+}
+
+.pos-msj {
+    bottom: 15%;
+    letter-spacing: 8px;
 }
 
 .card-sphere {
+    height: 75px;
     position: relative;
-    width: 287px;
-    height: 103px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     z-index: 10;
     border: 4px solid #a4804b;
     background-color: rgba(255, 250, 240, 0.452);
+    padding: 5px;
 }
 
-.card-sphere video {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-    filter: blur(0);
+.card-sphere h1 {
+    font-size: 1.2em ;
+}
+
+.card-sphere h5 {
+    font-size: 1em;
 }
 
 /* TIME LINE HEADER */
@@ -84,6 +112,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	position: relative;
+    border: 3px solid #ecbb77;
     padding: 10%;
 	margin: 0px auto;
 }
@@ -101,7 +130,7 @@ body {
 	content: "";
 	width: 2px;
 	height: 100%;
-	background: linear-gradient(0deg, #ecbb77 92%, #a4804b 100%);;
+	background: linear-gradient(0deg, #ecbb77 92%, #a4804b 100%);
 	position: absolute;
 	top: 0;
 	left: calc(50% - 1px);
@@ -149,7 +178,7 @@ body {
 }
 
 .card-time_line-photo {
-	width: 42%;
+	width: 52%;
 	border: 10px solid #fff;
 	position: relative;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -174,7 +203,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: start;
-	width: calc(42% + 20px);
+	width: calc(52% + 20px);
 	font-size: 20px;
 	font-weight: normal;
     padding: 2px;
