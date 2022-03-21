@@ -118,11 +118,6 @@ body {
 	margin: 0px auto;
 }
 
-.card-time_line-container > div {
-    
-}
-
-
 /* florarl white #fffaf0 
     ivory #fffff0
     oldlace #fdf5e6
@@ -260,5 +255,13 @@ body {
 
 .card-parents_invite > div {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+.card-parents_invite > p {
+    font-size: 1.5em;
+   font-weight: bold;
+    background-image: linear-gradient( to right, #f6e27a 0, #cb9b51 22%, #f6e27a 55%, #d4a768 50%, #f6e27a 55%, #cb9b51 104%, #cb9b51 96% );
+   color:transparent;
+   -webkit-background-clip:text;
 }
