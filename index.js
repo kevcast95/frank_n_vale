@@ -370,7 +370,7 @@ const guests = [
         "code": "1307"
     },
 ]
-console.table(guests)
+
 function addUp() {
     document.getElementById("video").play();
 }
@@ -396,7 +396,6 @@ function validateInvitate() {
        alert("Por favor verificar código")
        return
    }
-    console.log(code);
 }
 
 addUp();
