@@ -283,11 +283,14 @@ body {
 .card-parents__place-date > div {
     display: flex;
     justify-content: space-around;
+    padding: 30px 0;
+    font-size: 23px;
 }
 .date {
     font-weight: bold;
     background-image: linear-gradient( to right, #f6e27a 0, #cb9b51 22%, #cb9b51 55%, #d4a768 50%, #cb9b51 55%, #cb9b51 104%, #cb9b51 96% );
     color:transparent;
    -webkit-background-clip:text;
+    margin-bottom: 20px;
     font-size: 30px !important;
 }
