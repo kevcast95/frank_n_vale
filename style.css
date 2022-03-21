@@ -233,6 +233,7 @@ body {
 .card-parents__info {
     display: flex;
     justify-content: space-between;
+    font-size: 1.3em;
 }
 
 .card-parents__info > div {
