@@ -60,7 +60,6 @@ body {
 }
 
 .card-verse, .card-msj {
-    width: 80%;
     position: absolute;
     z-index: 10;
     border: 4px solid floralwhite;
