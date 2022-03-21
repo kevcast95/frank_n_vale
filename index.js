@@ -399,5 +399,5 @@ function validateInvitate() {
     console.log(code);
 }
 
-addUp()
-setTop()
+addUp();
+setTop();
