@@ -113,7 +113,7 @@ body {
 	flex-direction: column;
 	position: relative;
     border: 3px solid #ecbb77;
-    padding: 10%;
+    padding: 10% 5%;
 	margin: 0px auto;
 }
 
@@ -142,9 +142,8 @@ body {
 	justify-content: space-between;
 	margin-bottom: 50px;
 	position: relative;
-    padding: 25px;
-    margin: 15px;
-    border: 5px solid white;
+    border: 7px solid white;
+    padding: 5px;
 }
 
 .card-time_line-event::after {
@@ -174,12 +173,12 @@ body {
 	border: 20px solid transparent;
 	border-right: 20px solid #fff;
 	right: initial;
-	left: -50px;
+	left: -40px;
 }
 
 .card-time_line-photo {
-	width: 52%;
-	border: 10px solid #fff;
+	width: 44%;
+	border: 5px solid #fff;
 	position: relative;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -190,7 +189,7 @@ body {
 	border: 20px solid transparent;
 	border-left: 20px solid #fff;
 	position: absolute;
-	right: -50px;
+	right: -40px;
 	top: calc(50% - 20px);
 }
 
@@ -203,7 +202,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: start;
-	width: calc(52% + 20px);
+	width: calc(44% + 1px);
 	font-size: 20px;
 	font-weight: normal;
     padding: 2px;
