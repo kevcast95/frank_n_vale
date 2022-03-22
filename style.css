@@ -21,10 +21,12 @@ body {
 
 .card {
     width: 100%;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     overflow-x: hidden;
+    margin: 0 auto;
 }
 
 /* VIDEO CONTAINER */
