@@ -16,6 +16,7 @@ body {
     height: 100%;
     position: relative;
     font-family: 'Great Vibes', cursive;
+    overflow: hidden;
 }
 
 .card {
