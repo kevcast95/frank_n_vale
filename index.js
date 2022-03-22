@@ -372,7 +372,8 @@ const guests = [
 ]
 
 function addUp() {
-    document.getElementById("video").play();
+    const video = document.getElementById("video").play();
+    video.muted = true;
 }
 
 function setTop() {
@@ -389,7 +390,8 @@ function validateInvitate() {
     const guestName = document.getElementById("guest-name");
     const quota = document.getElementById("quota")
     if(guest.length > 0){
-        document.getElementById("video").play();
+        const video = document.getElementById("video").play();
+        video.muted = true;
         validate.scrollIntoView({ behavior: 'smooth' })
         guestName.innerText = guest[0]["name "];
         quota.innerHTML = `Cupo(s) (${guest[0].quota})`;
