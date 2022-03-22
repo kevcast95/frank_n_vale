@@ -118,6 +118,12 @@ body {
     letter-spacing: 8px;
 }
 
+.card-initial-container {
+    position: absolute;
+    z-index: 10;
+    padding: 5px;
+}
+
 .card-initial {
     position: relative;
     width: 148px;
