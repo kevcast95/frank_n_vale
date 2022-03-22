@@ -391,7 +391,7 @@ function validateInvitate() {
     if(guest.length > 0){
         validate.scrollIntoView({ behavior: 'smooth' })
         guestName.innerText = guest[0]["name "];
-        quota.innerHTML = `(${guest[0].quota})`;
+        quota.innerHTML = `Cupo(s) (${guest[0].quota})`;
     }else {
        alert("Por favor verificar código")
        return

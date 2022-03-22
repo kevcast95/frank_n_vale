@@ -37,6 +37,7 @@ body {
     justify-content: center;
     align-items: center;
     background: linear-gradient(0deg, #ecbb77 92%,#a4804b 100%);;
+    border: 5px solid floralwhite;
     margin: 0 auto;
 }
 
@@ -70,6 +71,8 @@ body {
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 3px;
+    color: #000;
+    -webkit-text-fill-color: #000;
 }
 
 .card-video {
@@ -82,7 +85,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: blur(3px);
+    filter: blur(2px);
 }
 
 .show {
@@ -112,7 +115,7 @@ body {
 
 .card-initial {
     position: relative;
-    width: 100px;
+    width: 148px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -124,7 +127,7 @@ body {
 }
 
 .card-initial h1 {
-    font-size: 1.9em ;
+    font-size: 2.9em ;
 }
 
 .card-sphere {
