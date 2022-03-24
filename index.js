@@ -50,7 +50,7 @@ const guests = [
         "code": "1243"
     },
     {
-        "name ": "Flia. Herazo Quevez",
+        "name ": "Flia. Herazo Querales",
         "quota": "2",
         "code": "1244"
     },
@@ -220,7 +220,7 @@ const guests = [
     "code": "1277"
     },
     {
-        "name ": "Aleandra Montaño",
+        "name ": "Alejandra Montaño",
         "quota": "1",
         "code": "1278"
     },
