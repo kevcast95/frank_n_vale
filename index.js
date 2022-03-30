@@ -150,8 +150,8 @@ const guests = [
         "code": "1263"
     },
     {
-        "name ": "Damaris Arroyo Guzman",
-        "quota": "1",
+        "name ": "Flia. Ortiz Arroyo",
+        "quota": "2",
         "code": "1264"
     },
     {
@@ -166,7 +166,7 @@ const guests = [
     },
     {
         "name ": "Tía Dorgy Arroyo Guzman",
-        "quota": "1",
+        "quota": "2",
         "code": "1267"
     },
     {
@@ -351,7 +351,7 @@ const guests = [
     },
     {
         "name ": "Sr. Jose Forero",
-        "quota": "1",
+        "quota": "2",
         "code": "1304"
     },
     {
@@ -383,7 +383,6 @@ function setTop() {
 
 function validateInvitate() {
     const body = document.querySelector("body")
-    body.style.overflow = "auto"
     const validate = document.getElementById("main");
     const code  = document.getElementById("code").value;
     const guest = guests.filter(gst => gst.code === code);
@@ -395,6 +394,7 @@ function validateInvitate() {
         validate.scrollIntoView({ behavior: 'smooth' })
         guestName.innerText = guest[0]["name "];
         quota.innerHTML = `Cupo(s) (${guest[0].quota})`;
+        body.style.overflow = "auto"
     }else {
        alert("Por favor verificar código")
        return
