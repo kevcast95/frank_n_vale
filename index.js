@@ -369,6 +369,31 @@ const guests = [
         "quota": "1",
         "code": "1307"
     },
+    {
+        "name ": "Flia. Sanjuan Alzáte",
+        "quota": "2",
+        "code": "1308"
+    },
+    {
+        "name ": "Andrea Quiróz",
+        "quota": "1",
+        "code": "1309"
+    },
+    {
+        "name ": "Carmen Durán",
+        "quota": "1",
+        "code": "1310"
+    },
+    {
+        "name ": "Jessica Niebles",
+        "quota": "1",
+        "code": "1311"
+    },
+    {
+        "name ": "Andrés Ramirez",
+        "quota": "1",
+        "code": "1312"
+    },
 ]
 
 function addUp() {
