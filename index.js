@@ -215,9 +215,9 @@ const guests = [
         "code": "1276"
     },
     {
-    "name ": "Flia. Lugo Agudelo",
-    "quota": "4",
-    "code": "1277"
+        "name ": "Flia. Lugo Agudelo",
+        "quota": "4",
+        "code": "1277"
     },
     {
         "name ": "Alejandra Montaño",
@@ -393,6 +393,16 @@ const guests = [
         "name ": "Andrés Ramirez",
         "quota": "1",
         "code": "1312"
+    },
+    {
+        "name ": "Flia. Cantillo Cortissoz",
+        "quota": "2",
+        "code": "5465"
+    },
+    {
+        "name ": "Elias Del Valle y Mayerlis Ardila",
+        "quota": "2",
+        "code": "5466"
     },
 ]
 
