@@ -427,7 +427,7 @@ function validateInvitate() {
         const video = document.getElementById("video").play();
         video.muted = true;
         validate.scrollIntoView({ behavior: 'smooth' })
-        guestName.innerText = guest[0]["name "];
+        guestName.innerText = guest[0]["name"];
         quota.innerHTML = `Cupo(s) (${guest[0].quota})`;
         body.style.overflow = "auto"
     }else {
